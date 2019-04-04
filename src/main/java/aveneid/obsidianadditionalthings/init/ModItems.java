@@ -36,7 +36,7 @@ public class ModItems {
 	
 	//Materials
 	public static final ToolMaterial MATERIAL_OBSIDIAN = EnumHelper.addToolMaterial("MATERIAL_OBSIDIAN", 2, 2500, 8.0f, 3.5f, 10);
-	public static final ArmorMaterial ARMOR_MATERIAL_OBSIDIAN = EnumHelper.addArmorMaterial("ARMOR_MATERIAL_OBSIDIAN", Reference.MOD_ID + ":obsidian_ingot", 14, new int[]{2, 5, 4, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.5F);
+	public static final ArmorMaterial ARMOR_MATERIAL_OBSIDIAN = EnumHelper.addArmorMaterial("ARMOR_MATERIAL_OBSIDIAN", Reference.MOD_ID + ":obsidian", 14, new int[]{2, 5, 4, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.5F);
 	
 	
 	//Tools
