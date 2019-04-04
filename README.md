@@ -16,7 +16,7 @@ You can create such things as:
  - Packed obsidian (in future to repair / add effects to items)
  - ???
 
-# Can I make remix or look inside 👀?
+## Can I make remix or look inside 👀?
 Yes, you can, feel free and grab it here:
     https://github.com/Aveneid/Additional-Obsidian-Things.git
 
