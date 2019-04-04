@@ -1,6 +1,6 @@
 {
 	"parent" : "item/generated",
 	"textures" : {
-		"layer0" : "aot:items/obsidian_helmet"
+		"layer0" : "aot:items/obsidian_helmet_01"
 		}
 }

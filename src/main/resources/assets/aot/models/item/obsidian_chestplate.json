@@ -1,6 +1,6 @@
 {
 	"parent" : "item/generated",
 	"textures" : {
-		"layer0" : "aot:items/obsidian_chestplate"
+		"layer0" : "aot:items/obsidian_chestplate_01"
 		}
 }

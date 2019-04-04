@@ -1,5 +1,6 @@
 package aveneid.obsidianadditionalthings.items.armor;
 
+import aveneid.obsidianadditionalthings.Main;
 import aveneid.obsidianadditionalthings.init.ModItems;
 import aveneid.obsidianadditionalthings.util.IHasModel;
 import net.minecraft.creativetab.CreativeTabs;
@@ -18,8 +19,6 @@ public class ArmorBase extends ItemArmor implements IHasModel{
 
 	@Override
 	public void registerModels() {
-		// TODO Auto-generated method stub
-		
+		Main.proxy.registerItemRenderer(this, 0, "inventory");
 	}
-
 }
