@@ -1,0 +1,17 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"pattern" : [
+		"xxx",
+		"x x",
+		"x x"
+		],
+	"key" :{
+		"x" :{
+			"item":"aot:obsidian_ingot"
+			}
+	},
+	"result":{
+		"item":"aot:obsidian_leggins",
+		"count":1
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"pattern" : [
+		"x x",
+		"x x"
+		],
+	"key" :{
+		"x" :{
+			"item":"aot:obsidian_ingot"
+			}
+	},
+	"result":{
+		"item":"aot:obsidian_boots",
+		"count":1
+	}
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "g",
+        "i",
+        "i"
+    ],
+    "key": {
+        "g": {
+            "item": "aot:obsidian_ingot"
+        },
+        "i": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "aot:obsidian_shovel",
+        "count": 1
+    }
+}

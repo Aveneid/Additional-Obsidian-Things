@@ -1,0 +1,16 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"pattern" : [
+		"xx",
+		"xx"
+		],
+	"key" :{
+		"x" :{
+			"item":"aot:obsidian_ingot"
+			}
+	},
+	"result":{
+		"item":"aot:packed_obsidian_block",
+		"count":4
+	}
+}
