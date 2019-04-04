@@ -10,7 +10,7 @@ You can create such things as:
  - Obsidian pickaxe
  - Obsidian axe
  - Obsidian hoe
- - Obsidian Shovel
+ - Obsidian spade
  - Obsidian sword
  - Obsidian armor (including helmet, chestplate, leggins and boots, in future with some extra functions)
  - Packed obsidian (in future to repair / add effects to items)
