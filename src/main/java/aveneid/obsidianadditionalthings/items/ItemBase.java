@@ -13,8 +13,8 @@ public class ItemBase extends Item implements IHasModel {
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		if(mode == 0) setCreativeTab(CreativeTabs.MATERIALS);
-		if(mode == 1) setCreativeTab(CreativeTabs.TOOLS);
-		if(mode == 2) setCreativeTab(CreativeTabs.COMBAT);
+		//if(mode == 1) setCreativeTab(CreativeTabs.TOOLS);
+		//if(mode == 2) setCreativeTab(CreativeTabs.COMBAT);
 		
 		ModItems.ITEMS.add(this);
 	}
