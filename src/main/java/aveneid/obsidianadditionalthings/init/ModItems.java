@@ -6,12 +6,16 @@ import java.util.List;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemAxe;
+import net.minecraft.item.ItemHoe;
+import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemSpade;
 import net.minecraft.item.ItemSword;
 import net.minecraftforge.common.util.EnumHelper;
 
 import aveneid.obsidianadditionalthings.items.ItemBase;
 import aveneid.obsidianadditionalthings.items.tools.ToolAxe;
+import aveneid.obsidianadditionalthings.items.tools.ToolHoe;
+import aveneid.obsidianadditionalthings.items.tools.ToolPickaxe;
 import aveneid.obsidianadditionalthings.items.tools.ToolSpade;
 import aveneid.obsidianadditionalthings.items.tools.ToolSword;
 
@@ -26,7 +30,7 @@ public class ModItems {
 	public static final ItemSword OBSIDIAN_SWORD = new ToolSword("obsidian_sword", MATERIAL_OBSIDIAN);
 	public static final ItemAxe OBSIDIAN_AXE = new ToolAxe("obsidian_axe", MATERIAL_OBSIDIAN);
 	public static final ItemSpade OBSIDIAN_SPADE = new ToolSpade("obsidian_spade", MATERIAL_OBSIDIAN);
-	/*public static final ItemPickaxe OBSIDIAN_PICKAXE = new ToolPickaxe("obsidian_pickaxe", MATERIAL_OBSIDIAN);
+	public static final ItemPickaxe OBSIDIAN_PICKAXE = new ToolPickaxe("obsidian_pickaxe", MATERIAL_OBSIDIAN);
 	public static final ItemHoe OBSIDIAN_HOE = new ToolHoe("obsidian_hoe",MATERIAL_OBSIDIAN);
 	
 	/*
