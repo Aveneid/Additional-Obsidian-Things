@@ -16,7 +16,7 @@ public class ArmorBase extends ItemArmor implements IHasModel{
 		setCreativeTab(CreativeTabs.COMBAT);
 		ModItems.ITEMS.add(this);
 	}
-
+	
 	@Override
 	public void registerModels() {
 		Main.proxy.registerItemRenderer(this, 0, "inventory");
