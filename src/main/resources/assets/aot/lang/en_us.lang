@@ -1,11 +1,20 @@
+//items
 item.obsidian_ingot.name=Obsidian ingot
 item.obsidian_pickaxe.name=Obsidian Pickaxe
 item.obsidian_axe.name=Obsidian Axe
 item.obsidian_spade.name=Obsidian Spade
 item.obsidian_hoe.name=Obsidian Hoe
 item.obsidian_sword.name=Obsidian Sword
+
+//armor
 item.obsidian_helmet.name=Obsidian Helmet
 item.obsidian_chestplate.name=Obsidian Chestplate
 item.obsidian_boots.name=Obsidian Boots
 item.obsidian_leggins.name=Obsidian Leggins
+item.enchanted_obsidian_helmet.name=Enchanted Obsidian Helmet
+item.enchanted_obsidian_chestplate.name=Enchanted Obsidian Chestplate
+item.enchanted_obsidian_boots.name=Enchanted Obsidian Boots
+item.enchanted_obsidian_leggins.name=Enchanted Obsidian Leggins
+
+//blocks
 tile.packed_obsidian_block.name=Packed Obsidian

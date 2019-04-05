@@ -2,10 +2,12 @@ package aveneid.obsidianadditionalthings.items;
 
 import aveneid.obsidianadditionalthings.init.ModItems;
 import aveneid.obsidianadditionalthings.util.IHasModel;
+import aveneid.obsidianadditionalthings.init.*;
 
 import aveneid.obsidianadditionalthings.Main;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 
 public class ItemBase extends Item implements IHasModel {
 	// 0 - materials, 1 - tools,2 - combat
@@ -24,5 +26,9 @@ public class ItemBase extends Item implements IHasModel {
 		
 	}
 	
+	@Override
+	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) {
+		return super.getIsRepairable(toRepair, new ItemStack(aveneid.obsidianadditionalthings.init.ModItems.OBSIDIAN_INGOT));
+	}
 
 }

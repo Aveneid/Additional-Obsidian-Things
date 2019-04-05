@@ -1,12 +1,16 @@
 package aveneid.obsidianadditionalthings.items.tools;
 
+import java.util.List;
+
 import aveneid.obsidianadditionalthings.Main;
 import aveneid.obsidianadditionalthings.init.ModItems;
 import aveneid.obsidianadditionalthings.util.IHasModel;
 
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemSpade;
+import net.minecraft.item.ItemStack;
 
 public class ToolSpade extends ItemSpade implements IHasModel {
 
@@ -23,4 +27,6 @@ public class ToolSpade extends ItemSpade implements IHasModel {
 	public void registerModels() {
 		Main.proxy.registerItemRenderer(this, 0, "inventory");
 	}
+
+
 }
