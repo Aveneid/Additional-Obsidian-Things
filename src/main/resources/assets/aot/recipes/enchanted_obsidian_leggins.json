@@ -7,14 +7,14 @@
 		],
 	"key" :{
 		"x" :{
-			"item":"aot:obsidian_helmet"
+			"item":"aot:obsidian_leggins"
 			},
 		"y" :{
 			"item" : "aot:packed_obsidian_block"
 			}
 	},
     "result": {
-        "item": "aot:enchanted_obsidian_helmet",
+        "item": "aot:enchanted_obsidian_leggins",
         "count": 1
     }
 }

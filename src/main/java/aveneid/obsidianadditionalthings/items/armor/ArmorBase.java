@@ -1,7 +1,5 @@
 package aveneid.obsidianadditionalthings.items.armor;
 
-import java.util.List;
-
 import aveneid.obsidianadditionalthings.Main;
 import aveneid.obsidianadditionalthings.init.ModItems;
 import aveneid.obsidianadditionalthings.util.IHasModel;
