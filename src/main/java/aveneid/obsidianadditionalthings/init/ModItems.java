@@ -10,6 +10,7 @@ import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemAxe;
 import net.minecraft.item.ItemHoe;
 import net.minecraft.item.ItemPickaxe;
+import net.minecraft.item.ItemRecord;
 import net.minecraft.item.ItemSpade;
 import net.minecraft.item.ItemSword;
 import net.minecraftforge.common.util.EnumHelper;
@@ -27,19 +28,21 @@ import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
 
 
+
+
 public class ModItems {
 // 0 - materials, 1 - tools, 2 - armor, 3 - combat
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	
 	//Items
 	public static final Item OBSIDIAN_INGOT = new ItemBase("obsidian_ingot",0);
-	
+	//public static final Item BEATBOX_RECORD = new ItemRecord("beatbox_record",);
 	
 	//Materials
 	public static final ToolMaterial MATERIAL_OBSIDIAN = EnumHelper.addToolMaterial("MATERIAL_OBSIDIAN", 2, 2500, 8.0f, 3.5f, 10);
 	public static final ArmorMaterial ARMOR_MATERIAL_OBSIDIAN = EnumHelper.addArmorMaterial("ARMOR_MATERIAL_OBSIDIAN", Reference.MOD_ID + ":obsidian", 14, new int[]{2, 5, 4, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.5F);
 	public static final ArmorMaterial ENCHANTED_ARMOR_MATERIAL_OBSIDIAN = EnumHelper.addArmorMaterial("ENCHANTED_ARMOR_MATERIAL_OBSIDIAN", Reference.MOD_ID + ":obsidian", 14, new int[]{3, 6, 5, 3}, 0, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.5F);
-	//public static final ArmorMaterial ENCHANTED_ARMOR_MATERIAL_OBSIDIAN = EnumHelper.addArmorMaterial(name, textureName, durability, reductionAmounts, enchantability, soundOnEquip, toughness)terial("ENCHANTED_ARMOR_MATERIAL_OBSIDIAN", Reference.MOD_ID + ":obsidian", 14, new int[]{3, 6, 5, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.5F);
+	
 
 	//Tools
 	public static final ItemSword OBSIDIAN_SWORD = new ToolSword("obsidian_sword", MATERIAL_OBSIDIAN);
@@ -60,5 +63,6 @@ public class ModItems {
 	public static final Item ENCHANTED_OBSIDIAN_CHESTPLATE = new EnchantedArmorBase("enchanted_obsidian_chestplate", ENCHANTED_ARMOR_MATERIAL_OBSIDIAN, 1, EntityEquipmentSlot.CHEST );
 	public static final Item ENCHANTED_OBSIDIAN_LEGGINS = new EnchantedArmorBase("enchanted_obsidian_leggins", ENCHANTED_ARMOR_MATERIAL_OBSIDIAN, 1, EntityEquipmentSlot.LEGS );
 	public static final Item ENCHANTED_OBSIDIAN_BOOTS = new EnchantedArmorBase("enchanted_obsidian_boots",ENCHANTED_ARMOR_MATERIAL_OBSIDIAN, 1, EntityEquipmentSlot.FEET );
+	
 	
 }

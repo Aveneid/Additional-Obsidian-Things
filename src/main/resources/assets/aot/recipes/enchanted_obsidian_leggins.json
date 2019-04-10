@@ -6,10 +6,10 @@
 		" x "
 		],
 	"key" :{
-		"x" :{
+		"y" :{
 			"item":"aot:obsidian_leggins"
 			},
-		"y" :{
+		"x" :{
 			"item" : "aot:packed_obsidian_block"
 			}
 	},

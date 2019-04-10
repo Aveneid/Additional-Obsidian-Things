@@ -28,8 +28,12 @@ public class EnchantedArmorBase extends ItemArmor implements IHasModel {
 		if (player.getItemStackFromSlot(EntityEquipmentSlot.HEAD).getItem() instanceof EnchantedArmorBase
 				&& player.getItemStackFromSlot(EntityEquipmentSlot.CHEST).getItem() instanceof EnchantedArmorBase
 				&& player.getItemStackFromSlot(EntityEquipmentSlot.LEGS).getItem() instanceof EnchantedArmorBase
-				&& player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() instanceof EnchantedArmorBase) 
-			player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 10));
+				&& player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() instanceof EnchantedArmorBase) {
+				player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 10));
+				/*if(!player.hasAchievement(ModAchievements.achievementFireResist)) {
+					player.addStat(ModAchievements.achievementFireResist);
+				}*/
+		}
 	 
 	}
 	@SideOnly(Side.CLIENT)
@@ -37,10 +41,10 @@ public class EnchantedArmorBase extends ItemArmor implements IHasModel {
 		return true;
 	}
 	@SideOnly(Side.CLIENT)
-    public void addInformation(ItemStack itemStack, EntityPlayer player, List<String> dataList, boolean bool) {
-		dataList.add("tooltip");
-		dataList.add("tooltip2");
-    }
+	public void addInformation(ItemStack itemStack, EntityPlayer player, List<String> dataList, boolean bool) { 
+		dataList.add("\u00A74Edit your tooltip here.");
+		dataList.add("\u00A74Edit your tooltip here.");    
+	}
 	
 	//register
 	@Override
